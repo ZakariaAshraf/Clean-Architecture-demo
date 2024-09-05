@@ -2,7 +2,8 @@ import 'package:clean_architecture_practice/features/users/domain/entities/user_
 import 'package:dartz/dartz.dart';
 
 import '../../../../core/errors/failure.dart';
+import '../../../../core/params/params.dart';
 
 abstract class UserRepository{
-  Future<Either<Failure,UserEntity>>getUser();
+  Future<Either<Failure,UserEntity>>getUser({required UserParams params});
 }
