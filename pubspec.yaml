@@ -39,6 +39,7 @@ dependencies:
   dio: ^5.7.0
   shared_preferences: ^2.3.2
   dartz: ^0.10.1
+  flutter_bloc: ^8.1.6
 
 dev_dependencies:
   flutter_test:

@@ -1,6 +1,4 @@
 import 'package:clean_architecture_practice/core/databases/api/end_points.dart';
-import 'package:clean_architecture_practice/features/users/domain/entities/sub_entities/address_entity.dart';
-
 import '../../../domain/entities/sub_entities/geo_entity.dart';
 
 class GeoModel extends GeoEntity {
